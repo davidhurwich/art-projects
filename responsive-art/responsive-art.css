@@ -1,0 +1,249 @@
+   input[type="checkbox"] {
+       display: none;
+   }
+   
+   input[type="checkbox"] + label span {
+       display: inline-block;
+       width: 19px;
+       height: 19px;
+       background: rgba(0, 0, 0, 0.2);
+   }
+   
+   input[type="checkbox"]:checked + label span {
+       background: red;
+   }
+   
+   div {
+       display: inline;
+   }
+   
+   .button {
+       font-size: 8em;
+       font-weight: bold;
+       color: white;
+       text-shadow: 5px 5px 5px #ccc;
+       padding: 0px;
+       margin: 0px;
+   }
+   
+   .button:hover {
+       color: red;
+   }
+   
+   aside {
+       position: fixed;
+       top: 0px;
+       left: 0px;
+       border-radius: 25px;
+       padding: 0px 25px;
+       background-color: rgba(255, 255, 255, 0.5);
+   }
+   
+   #project-description {
+       display: none;
+   }
+   
+   #project-description:hover {
+       display: block;
+   }
+   
+   a {
+       text-decoration: none;
+   }
+   
+   .mobile-banner a {
+       color: #000;
+   }
+   
+   .mobile-banner a:hover {
+       color: red;
+   }
+   
+   .mobile-banner {
+       position: fixed;
+       top: 0px;
+       left: 0px;
+       width: 100%;
+       padding: 5px;
+       background-color: rgba(255, 255, 255, 0.25);
+   }
+   
+   @media screen and (max-width:799px) {
+       aside {
+           position: fixed;
+           bottom: 0px;
+           left: 0px;
+           width: 100%;
+       }
+   }
+   
+   @media screen and (max-width:399px) {
+       body {
+           background-color: pink;
+       }
+   }
+   
+   @media screen and (min-width:400px) and (max-width:599px) {
+       #artfield {
+           width: 400px;
+           margin: 0 auto;
+       }
+       body {
+           background-color: green;
+       }
+       .row-aaa,
+       .row-bbb,
+       .row-ccc,
+       .row-ddd,
+       .row-eee,
+       .row-fff,
+       .row-ggg,
+       .row-hhh,
+       .row-iii,
+       .row-jjj,
+       .row-kkk,
+       .row-lll,
+       .row-zzz,
+       .row-xxx,
+       .row-vvv,
+       .row-nnn,
+       .row-nnn,
+       .row-mmm,
+       .row-ttt,
+       .row-ooo,
+       .row-ppp,
+       .row-uuu,
+       .row-rrr,
+       .row-www,
+       .row-qqq,
+       .row-zz,
+       .row-yy,
+       .row-tt,
+       .row-uu,
+       .row-ww,
+       .row-qq,
+       .row-ss,
+       .row-pp,
+       .row-rr,
+       .row-mm,
+       .row-nn,
+       .row-oo,
+       .row-jj,
+       .row-gg,
+       .row-ii,
+       .row-kk,
+       .row-ll,
+       .row-ff,
+       .row-ee,
+       .row-dd,
+       .row-cc,
+       .row-bb {
+           display: none;
+       }
+   }
+   
+   @media screen and (min-width:600px) and (max-width:799px) {
+       #artfield {
+           width: 600px;
+           margin: 0 auto;
+       }
+       body {
+           background-color: orange;
+       }
+       .mobile-banner {
+           display: none;
+       }
+       .row-aaa,
+       .row-bbb,
+       .row-ccc,
+       .row-ddd,
+       .row-eee,
+       .row-fff,
+       .row-ggg,
+       .row-hhh,
+       .row-iii,
+       .row-jjj,
+       .row-kkk,
+       .row-lll,
+       .row-zzz,
+       .row-xxx,
+       .row-vvv,
+       .row-nnn,
+       .row-nnn,
+       .row-mmm,
+       .row-ttt,
+       .row-ooo,
+       .row-ppp,
+       .row-uuu,
+       .row-rrr,
+       .row-www,
+       .row-qqq,
+       .row-zz,
+       .row-yy,
+       .row-tt,
+       .row-uu,
+       .row-ww,
+       .row-qq,
+       .row-ss,
+       .row-pp,
+       .row-rr,
+       .row-mm,
+       .row-nn,
+       .row-oo,
+       .row-jj {
+           display: none;
+       }
+   }
+   
+   @media screen and (max-width:1199px) and (min-width:800px) {
+       #artfield {
+           width: 800px;
+           margin: 0 auto;
+       }
+       .mobile-banner {
+           display: none;
+       }
+       body {
+           background-color: red;
+       }
+       .row-aaa,
+       .row-bbb,
+       .row-ccc,
+       .row-ddd,
+       .row-eee,
+       .row-fff,
+       .row-ggg,
+       .row-hhh,
+       .row-iii,
+       .row-jjj,
+       .row-kkk,
+       .row-lll,
+       .row-zzz,
+       .row-xxx,
+       .row-vvv,
+       .row-nnn,
+       .row-nnn,
+       .row-mmm,
+       .row-ttt,
+       .row-ooo,
+       .row-ppp,
+       .row-uuu,
+       .row-rrr,
+       .row-www,
+       .row-qqq {
+           display: none;
+       }
+   }
+   
+   @media screen and (min-width:1200px) {
+       #artfield {
+           width: 1200px;
+           margin: 0 auto;
+       }
+       .mobile-banner {
+           display: none;
+       }
+       body {
+           background-color: yellow;
+       }
+   }
